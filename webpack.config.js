@@ -22,7 +22,8 @@ function generateConfig(name) {
         test: /\.js$/,
         loader: 'babel-loader',
       }]
-    }
+    },
+    plugins:[],
   };
 
   if (uglify) {

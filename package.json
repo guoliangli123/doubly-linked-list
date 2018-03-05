@@ -1,0 +1,40 @@
+{
+  "name": "doubly-linked-list",
+  "version": "1.0.0",
+  "description": "a js doubly-linked-list",
+  "main": "dist/dblink.min.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test/test.js",
+    "build": "node scripts/build.js",
+    "doc": "jsdoc -c jsdocConf.json -d ./doc --debug -R README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgl1993/doubly-linked-list.git"
+  },
+  "keywords": [
+    "js",
+    "doubly-linked-list"
+  ],
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chalk": "^2.3.0",
+    "ora": "^1.4.0",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.10.0"
+  },
+  "author": "lgl1993",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lgl1993/doubly-linked-list/issues"
+  },
+  "homepage": "https://github.com/lgl1993/doubly-linked-list#readme"
+}
